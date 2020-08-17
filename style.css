@@ -1,0 +1,350 @@
+/* 1. Borders */
+
+/* 
+1. dotted - Defines a dotted border
+2. dashed - Defines a dashed border
+3. solid - Defines a solid border
+4. double - Defines a double border
+5. groove - Defines a 3D grooved border. The effect depends on the border-color value
+6. ridge - Defines a 3D ridged border. The effect depends on the border-color value
+7. inset - Defines a 3D inset border. The effect depends on the border-color value
+8. outset - Defines a 3D outset border. The effect depends on the border-color value
+9. none - Defines no border
+10. hidden - Defines a hidden border 
+*/
+
+/* .dotted {
+    border: 3px dotted black;
+}
+
+.dashed {
+    border: 3px dashed black;
+}
+
+.solid {
+    border: 3px solid black;
+}
+
+.double {
+    border: 3px double black;
+}
+
+.groove {
+    border: 3px groove black;
+}
+
+.ridge {
+    border: 3px ridge black;
+}
+
+.inset {
+    border: 3px inset black;
+}
+
+.outset {
+    border: 3px outset black;
+}
+
+.none {
+    border: 3px none black;
+}
+
+.hidden {
+    border: 3px hidden black;
+}
+
+.mixed {
+    border-style: dotted dashed double solid;
+} */
+
+/* 1.1. Border Width */
+
+/* .one {
+    border-style: solid;
+    border-width: 0px 10px 10px 0px;
+}
+
+.two {
+    border-style: solid;
+    border-width: 10px 70px 25px 45px;
+}
+
+.three {
+    border-style: solid;
+    border-width: 50px 5px 35px 90px;
+} */
+
+/* 1.2. Border Color */
+
+/* .red {
+    border-style: dotted;
+    border-color: red;
+}
+
+.green {
+    border-style: double;
+    border-color: rgb(74, 241, 74);
+}
+
+.blue {
+    border-style: dashed;
+    border-color: blue;
+    margin-right: 200px; 
+}
+
+.violet {
+    border-style: outset;
+    border-color: violet;
+} */
+
+/* 1.3. Border Sides  */
+
+/* p {
+    border-top-style: dashed;
+    border-bottom-style: double;
+    border-left-style: dotted;
+    border-right-style: outset;
+} */
+
+/* 1.4. Rounded Border  */
+
+/* .one {
+    border: 2px solid orange;
+}
+
+.two {
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+.three {
+    border: 2px solid orange;
+    border-radius: 10px;
+}
+
+.four {
+    border: 2px solid orange;
+    border-radius: 15px;
+} */
+
+/* 2. Margins */
+
+/* div {
+    border: 2px solid black;
+    background-color: blue;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    margin-right: 200px;
+} */
+
+/* 2.1. Margin Shorthand */
+
+/* div {
+    border: 2px solid black;
+    background-color: blue;
+    margin: 100px 100px 80px 80px;
+} */
+
+/* 3. Padding  */
+
+/* div {
+    border: 3px solid black;
+    background-color: blue;
+    padding-top: 30px;
+    padding-right: 50px;
+    padding-bottom: 75px;
+    padding-left: 25px;
+} */
+
+/* 3.1. Padding Shorthand */
+
+/* div {
+    border: 3px solid black;
+    background-color: pink;
+    padding: 50px 25px;
+} */
+
+/* 4. Height and Width */
+
+/* div {
+    max-width: 800px;
+    height: 200px;
+    background-color: blue;
+} */
+
+/* 5. Box Model */
+
+/* div {
+    width: 300px;
+    border: 3px green;
+    border-style: solid;
+    background-color: lightgray;
+    border-width: 10px;
+    margin: 25px;
+    padding: 25px;
+} */
+
+/* div {
+    border: 5px solid grey;
+    margin: 0;
+    padding: 10px;
+    width: 320px;
+} */
+
+/* 6. Outline */
+/* 6. Outline Width  */
+
+/* Let's suppose you want to choose the same color for all the outlines. Instead of adding the color to every class, just set the color for the p-tag instead */
+
+/* p {
+    outline-color: indianred;
+}
+
+.dotted {
+    border: 1px solid black;
+    outline-style: dotted;
+    outline-width: thin;
+}
+
+.dashed {
+    border: 1px solid black;
+    outline-style: dashed;
+    outline-width: medium;
+}
+
+.solid {
+    border: 1px solid black;
+    outline-style: solid;
+    outline-width: thick;
+}
+
+.double {
+    border: 1px solid black;
+    outline-style: double;
+    outline-width: 6px;
+}
+
+.groove {
+    border: 1px solid black;
+    outline-style: groove;
+    outline-width: 9px;
+}
+
+.ridge {
+    border: 1px solid black;
+    outline-style: ridge;
+}
+
+.inset {
+    border: 1px solid black;
+    outline-style: inset;
+}
+
+.outset {
+    border: 1px solid black;
+    outline-style: outset;
+} */
+
+/* 6.2. Outline Shorthand */
+
+/* p {
+    outline: red thick dotted;
+} */
+
+/* p {
+    outline: 5px solid yellow;
+} */
+
+/* 6.3. Outline Offset */
+
+/* p {
+    margin: 25px;
+    padding: 5px;
+    color: white;
+    background-color: green;
+    border: 3px solid black;
+    outline: 3px solid red;
+    outline-offset: 20px;
+} */
+
+/* 7. Text: Justify */
+
+/* p {
+    border: 3px solid black;
+    padding: 3px;
+    margin: 0;
+    height: 200px;
+    width: 200px;
+    text-align: justify;
+} */
+
+/* p.direction {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+} */
+
+/* 7. Text: Vertical-Align */
+
+/* .top {
+    vertical-align: top;
+}
+
+.middle {
+    vertical-align: middle;
+}
+
+.bottom {
+    vertical-align: bottom;
+} */
+
+/* 7. Text: transformation */
+
+/* .uppercase {
+    text-transform: uppercase;
+}
+
+.capital {
+    text-transform: capitalize;
+}
+
+.lowercase {
+    text-transform: lowercase;
+} */
+
+/* 7. Text: spacing */
+/* 7. Text-Indent */
+
+/* p {
+    text-indent: 50px;
+} */
+
+/* 7. Letter-Spacing */
+
+/* h1 {
+    letter-spacing: 5px;
+}
+
+h1.minus {
+    letter-spacing: -4px;
+} */
+
+/* 7. Text: Line-Height */
+
+/* .big {
+    line-height: 2;
+}
+
+.small {
+    line-height: 0.8;
+} */
+
+/* 7. Text: Word-Spacing */
+
+/* .far {
+    word-spacing: 1.9px;
+}
+
+.close {
+    word-spacing: -6px;
+} */
